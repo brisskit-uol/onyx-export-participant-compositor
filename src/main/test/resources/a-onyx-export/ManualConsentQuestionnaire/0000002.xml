@@ -1,0 +1,77 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="ManualConsentQuestionnaire" entityType="Participant" entityIdentifier="BPt00000030">
+  <variableValue variable="QuestionnaireRun.version">
+    <value valueType="text">1.0</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.locale">
+    <value valueType="locale">en</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeStart">
+    <value valueType="datetime">2010-07-22T09:37:55.000+0100</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeEnd">
+    <value valueType="datetime">2010-07-22T09:38:12.000+0100</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.user">
+    <value valueType="text">JeffLusted</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.section">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.page">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.duration">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.questionCount">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.missingCount">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="consent_q1">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="consent_q1.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="consent_q1.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="consent_q2">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="consent_q2.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="consent_q2.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="consent_q3">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="consent_q3.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="consent_q3.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="consent_q4">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="consent_q4.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="consent_q4.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="consent_q5">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="consent_q5.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="consent_q5.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+</valueSet>

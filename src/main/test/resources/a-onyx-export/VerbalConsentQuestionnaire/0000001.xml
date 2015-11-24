@@ -1,0 +1,11 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="VerbalConsentQuestionnaire" entityType="Participant" entityIdentifier="BPt00000020">
+  <variableValue variable="consent_acute.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="consent_acute.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="consent_witness_cat.OPEN_AN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+</valueSet>

@@ -1,0 +1,4 @@
+This program is intended for test environments only.
+
+It composes imaginary participant data given an existing an onyx export file as input. 
+The end product is another onyx export file.

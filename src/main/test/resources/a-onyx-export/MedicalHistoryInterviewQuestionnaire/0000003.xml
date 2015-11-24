@@ -1,0 +1,1881 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="MedicalHistoryInterviewQuestionnaire" entityType="Participant" entityIdentifier="BPt00000040">
+  <variableValue variable="QuestionnaireRun.version">
+    <value valueType="text">1.0</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.locale">
+    <value valueType="locale">en</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeStart">
+    <value valueType="datetime">2011-01-06T09:27:00.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeEnd">
+    <value valueType="datetime">2011-01-06T09:29:06.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.user">
+    <value valueType="text">JeffLusted</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.section">
+    <value class="sequence" valueType="text" size="9">
+      <value valueType="text" order="0">MAIN</value>
+      <value valueType="text" order="1">MAIN</value>
+      <value valueType="text" order="2">MAIN</value>
+      <value valueType="text" order="3">MAIN</value>
+      <value valueType="text" order="4">MAIN</value>
+      <value valueType="text" order="5">MAIN</value>
+      <value valueType="text" order="6">MAIN</value>
+      <value valueType="text" order="7">MAIN</value>
+      <value valueType="text" order="8">MAIN</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.page">
+    <value class="sequence" valueType="text" size="9">
+      <value valueType="text" order="0">11</value>
+      <value valueType="text" order="1">2</value>
+      <value valueType="text" order="2">3</value>
+      <value valueType="text" order="3">4</value>
+      <value valueType="text" order="4">5</value>
+      <value valueType="text" order="5">6</value>
+      <value valueType="text" order="6">7</value>
+      <value valueType="text" order="7">8</value>
+      <value valueType="text" order="8">9</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.duration">
+    <value class="sequence" valueType="integer" size="9">
+      <value valueType="integer" order="0">11</value>
+      <value valueType="integer" order="1">24</value>
+      <value valueType="integer" order="2">9</value>
+      <value valueType="integer" order="3">12</value>
+      <value valueType="integer" order="4">16</value>
+      <value valueType="integer" order="5">6</value>
+      <value valueType="integer" order="6">8</value>
+      <value valueType="integer" order="7">9</value>
+      <value valueType="integer" order="8">5</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.questionCount">
+    <value class="sequence" valueType="integer" size="9">
+      <value valueType="integer" order="0">2</value>
+      <value valueType="integer" order="1">2</value>
+      <value valueType="integer" order="2">2</value>
+      <value valueType="integer" order="3">4</value>
+      <value valueType="integer" order="4">2</value>
+      <value valueType="integer" order="5">2</value>
+      <value valueType="integer" order="6">2</value>
+      <value valueType="integer" order="7">2</value>
+      <value valueType="integer" order="8">1</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.missingCount">
+    <value class="sequence" valueType="integer" size="9">
+      <value valueType="integer" order="0">0</value>
+      <value valueType="integer" order="1">1</value>
+      <value valueType="integer" order="2">0</value>
+      <value valueType="integer" order="3">0</value>
+      <value valueType="integer" order="4">0</value>
+      <value valueType="integer" order="5">0</value>
+      <value valueType="integer" order="6">0</value>
+      <value valueType="integer" order="7">0</value>
+      <value valueType="integer" order="8">0</value>
+    </value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp_onset_cat">
+    <value valueType="text">YEAR</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp_onset_cat.YEAR">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp_onset">
+    <value valueType="integer">2000</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp_treat">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp_treat.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_highbp_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab">
+    <value valueType="text">DK</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab.DK">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_type.Type_1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_type.Type_2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_type.Gestational_only">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_type.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_type.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_onset_cat.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_treat_type.Diet">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_treat_type.Tablets">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_treat_type.Diet_Tablets">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_treat_type.Insulin">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_treat_type.Insulin_Tablets">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_treat_type.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_diab_treat_type.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol">
+    <value valueType="text">DK</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol.DK">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol_onset_cat.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_chol_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_number_cat.MI_NUM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_number_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_number_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_1.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_1.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_2.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_2.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_3.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_3.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_4.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_4.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_5.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_5.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_6.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_6.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_7.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_7.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_8.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_8.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_9.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_9.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_10.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_onset_10.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_mi_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_number_cat.CVA_NUM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_number_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_number_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_1.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_1.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_2.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_2.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_3.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_3.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_4.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_4.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_5.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_5.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_6.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_6.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_7.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_7.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_8.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_8.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_9.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_9.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_10.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_onset_10.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cva_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_number_cat.TIA_NUM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_number_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_number_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_1.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_1.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_2.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_2.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_3.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_3.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_4.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_4.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_5.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_5.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_6.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_6.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_7.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_7.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_8.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_8.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_9.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_9.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_10.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_onset_10.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_tia_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina_onset_cat">
+    <value valueType="text">YEAR</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina_onset_cat.YEAR">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina_onset">
+    <value valueType="integer">2000</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina_treat">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina_treat.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_angina_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd_onset_cat.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_pvd_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_type.Aortic_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_type.Aortic_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_type.Mitral_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_type.Mitral_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_type.Tricuspid_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_type.Tricuspid_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_type.Pulmonary_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_type.Pulmonary_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_type.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_type.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_onset_cat.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vhd_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa_onset_cat.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_aa_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf_onset_cat.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_crf_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd_onset_cat.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_copd_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal_onset_cat.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_renal_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm_onset_cat.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_asthm_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF_onset_cat.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_AF_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd_onset_cat.YEAR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd_treat.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd_treat.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd_treat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ohrd_treat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv">
+    <value class="sequence" valueType="text" size="1">
+      <value valueType="text" order="0">Pacemaker</value>
+    </value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.NONE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.CABG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.Valve_Surgery">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.TAVI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.Primary_PCI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.Other_PCI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.Pacemaker">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.ICD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.LV_Assist">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.Thrombolysis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.Ablation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.Aortic_Balloon_Pump">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.Bare_metal_stent">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.Drug_eluting_stent">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.CPAP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.Transplant">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_interv.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_cabg_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_vs_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_TAVI_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_TAVI_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Primary_PCI_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Other_PCI_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_cat">
+    <value valueType="text">OPEN_N3</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_cat.OPEN_N3">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker">
+    <value valueType="integer">1</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_table">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year1_cat">
+    <value valueType="text">OPEN_N4</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year1_cat.OPEN_N4">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="Pacemaker_year1">
+    <value valueType="integer">2001</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Pacemaker_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_ICD_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_LV_Assist_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Thrombolysis_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Ablation_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Aortic_Balloon_Pump_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Bare_metal_stent_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Drug_eluting_stent_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_CPAP_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_cat.OPEN_N3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year1_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year1_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year2_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year2_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year3_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year3_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year4_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year4_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year5_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year5_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year6_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year6_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year7_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year7_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year8_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year8_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year9_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year9_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year10_cat.OPEN_N4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="part_hist_Transplant_year10_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+</valueSet>

@@ -1,0 +1,63 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="VerbalConsentQuestionnaire" entityType="Participant" entityIdentifier="BPt00000030">
+  <variableValue variable="QuestionnaireRun.version">
+    <value valueType="text">1.0</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.locale">
+    <value valueType="locale">en</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeStart">
+    <value valueType="datetime">2011-01-05T16:42:55.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeEnd">
+    <value valueType="datetime">2011-01-05T16:43:57.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.user">
+    <value valueType="text">JeffLusted</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.section">
+    <value class="sequence" valueType="text" size="1">
+      <value valueType="text" order="0">MAIN</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.page">
+    <value class="sequence" valueType="text" size="1">
+      <value valueType="text" order="0">2</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.duration">
+    <value class="sequence" valueType="integer" size="1">
+      <value valueType="integer" order="0">18</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.questionCount">
+    <value class="sequence" valueType="integer" size="1">
+      <value valueType="integer" order="0">2</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.missingCount">
+    <value class="sequence" valueType="integer" size="1">
+      <value valueType="integer" order="0">0</value>
+    </value>
+  </variableValue>
+  <variableValue variable="brics_consent_acute_description">
+    <value valueType="text">true</value>
+  </variableValue>
+  <variableValue variable="consent_acute">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="consent_acute.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="consent_acute.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="consent_witness_cat">
+    <value valueType="text">OPEN_AN</value>
+  </variableValue>
+  <variableValue variable="consent_witness_cat.OPEN_AN">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="consent_witness">
+    <value valueType="text">Deidre Smith</value>
+  </variableValue>
+</valueSet>

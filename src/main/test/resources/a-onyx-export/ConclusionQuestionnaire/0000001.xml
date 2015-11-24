@@ -1,0 +1,100 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="ConclusionQuestionnaire" entityType="Participant" entityIdentifier="BPt00000020">
+  <variableValue variable="QuestionnaireRun.version">
+    <value valueType="text">1.0</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.locale">
+    <value valueType="locale">en</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeStart">
+    <value valueType="datetime">2011-01-05T16:48:49.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeEnd">
+    <value valueType="datetime">2011-01-05T16:48:56.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.user">
+    <value valueType="text">JeffLusted</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.section">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.page">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.duration">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.questionCount">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.missingCount">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="CONCLUSION">
+    <value valueType="text">true</value>
+  </variableValue>
+  <variableValue variable="epi_dischmeth.Home">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_dischmeth.Other_hospital">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_dischmeth.Convalescence">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_dischmeth.Death">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_dischmeth.Other_specialty">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_dischmeth.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge">
+    <value class="sequence" valueType="text" size="1">
+      <value valueType="text" order="0">NONE</value>
+    </value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.NONE">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.Aspirin">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.ACEi_ARB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.B_blocker">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.Statin">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.Thienopyridine">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.Nitrate">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.Aldosterone">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.Warfarin">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.Calcium_blocker">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.Insulin">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.Oral_hypoglycaemic">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.Others">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="drugs_discharge.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+</valueSet>

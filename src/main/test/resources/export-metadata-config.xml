@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<onyx-export-config	xmlns='http://brisskit.org/xml/export-metadata-config/v3.0/em' 
+                    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' >
+	<!--
+	     NB: The composition phase is only allowed during the generation of test data.
+	    
+	     The selection construct is used to choose those parts of a questionnaire which
+	     will be swapped between participants.
+	    
+	     There are three selection constructs:
+	     (1) hint:
+	         Any variable which can be matched partly to the hint string will be included.
+	         If the hint is 'abcde', the match will be on '*abcde*'.
+	         The string is case sensitive.
+	         More than one hint can be included in a select. They act as logical OR's.
+	     (2) exclude:
+	         If the hint is too general, some accidental associations may be included.
+	         These can be explicitly excluded. Hint and exclude work in tandem.
+	     (3) explicit:
+	         If no other way is possible, you can use explicit to give the exact match.
+	         This is case sensitive. Multiple explicit constructs can be used.    
+	-->
+	<composition-phase>
+		<swap questionnaire="MedicalHistoryInterviewQuestionnaire">
+			<select>
+		    	<!--
+		        	 Have you ever suffered from high blood pressure? 
+		        	 When did you first suffer from high blood pressure?
+		        	 Have you received treatment for your high blood pressure?
+		        -->
+				<hint>part_hist_highbp</hint>
+			</select>
+			<select>
+				<!--
+		        	 Have you ever suffered from heart attack or myocardial infarction (M.I.)?
+		        	 How many MIs have you suffered?
+		        	 Year of occurrence of each MI.
+		        	 mi_year1 to mi_year10
+		        	 Have you received treatment for your MI?
+		        -->
+				<hint>part_hist_mi</hint>
+				<hint>mi_year</hint>
+			</select>
+		</swap>
+	</composition-phase>
+		
+</onyx-export-config>

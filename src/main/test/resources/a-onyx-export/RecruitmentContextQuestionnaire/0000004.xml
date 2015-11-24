@@ -1,0 +1,2282 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="RecruitmentContextQuestionnaire" entityType="Participant" entityIdentifier="BPt00000050">
+  <variableValue variable="QuestionnaireRun.version">
+    <value valueType="text">1.0</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.locale">
+    <value valueType="locale">en</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeStart">
+    <value valueType="datetime">2010-07-28T14:52:35.000+0100</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeEnd">
+    <value valueType="datetime">2010-07-28T15:07:22.000+0100</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.user">
+    <value valueType="text">JeffLusted</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.section">
+    <value class="sequence" valueType="text" size="2">
+      <value valueType="text" order="0">MAIN</value>
+      <value valueType="text" order="1">MAIN</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.page">
+    <value class="sequence" valueType="text" size="2">
+      <value valueType="text" order="0">1</value>
+      <value valueType="text" order="1">2</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.duration">
+    <value class="sequence" valueType="integer" size="2">
+      <value valueType="integer" order="0">31</value>
+      <value valueType="integer" order="1">20</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.questionCount">
+    <value class="sequence" valueType="integer" size="2">
+      <value valueType="integer" order="0">3</value>
+      <value valueType="integer" order="1">3</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.missingCount">
+    <value class="sequence" valueType="integer" size="2">
+      <value valueType="integer" order="0">0</value>
+      <value valueType="integer" order="1">0</value>
+    </value>
+  </variableValue>
+  <variableValue variable="int_lang">
+    <value valueType="text">ENGLISH</value>
+  </variableValue>
+  <variableValue variable="int_lang.ENGLISH">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="int_lang.GUJARATI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="int_lang.HINDI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="int_lang.PUNJABI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="int_lang.URDU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="int_lang.BENGALI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="int_lang.POLISH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_type">
+    <value valueType="text">Inpatient</value>
+  </variableValue>
+  <variableValue variable="epi_type.Inpatient">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_type.Outpatient">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_type.Healthy_control">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_type.Study_specific">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_type.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_iptype">
+    <value valueType="text">Acute</value>
+  </variableValue>
+  <variableValue variable="epi_iptype.Acute">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_iptype.Elective">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_iptype.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_hosp">
+    <value valueType="text">Glenfield</value>
+  </variableValue>
+  <variableValue variable="epi_hosp.Glenfield">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_hosp.LGH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_hosp.LRI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_hosp.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield">
+    <value valueType="text">FCCL</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FCCU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FCCL">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FCDU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FCHD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F27">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F28">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F31">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F31H">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F32">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F33">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F33A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F15">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F16">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F17">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F17H">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F20">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F23">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F23A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F24">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F25">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F25E">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F26">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F26H">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F27A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F29">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F29H">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F30">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F30H">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F32H">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F33C">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F33H">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.F34">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FBUP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FCDH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FCFD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FCIC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FCID">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FCSU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FDCO">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FDIS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FETU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FGI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FGOO">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FHIS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FITU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FNCI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FNUF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FPHA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FPIC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.FSAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_Glenfield.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G10">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G10D">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G11">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G11A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G12">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G15A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G15N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G16">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G17">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G17A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G18">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G19">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G20">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G20A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G22">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G23">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G26">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G27">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G28">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G28A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G28B">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G28D">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G29">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G30">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G30B">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G31">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G31B">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G5">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G6">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G6D">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G7">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G8">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.G8A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GBH1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GBH2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GBIU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GBRU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GBUP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GCC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GDC1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GDC2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GDCM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GDHE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GDIA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GDL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GEMU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GEND">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GENO">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GGCI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GGSU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GHB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GHDU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GHIS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GLD1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GLD2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GLD3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GLD4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GLDU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GLW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GLWB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GMH1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GMH2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GNUF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GOP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GOP4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GPAS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GSAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GSCB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GSM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GSS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GUEA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GXDA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.GYDU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LGH.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.3000">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R01">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R02">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R03">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R03B">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R05">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R05B">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R06">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R06B">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R07">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R08">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R09">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R10">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R10H">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R11">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R11H">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R12">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R12A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R14">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R15">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R16">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R17">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R18">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R19">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R21">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R22">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R23">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R24">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R25">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R26">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R27">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R29">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R30">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R30H">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R31">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R32">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R33">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R35">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R35D">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R36">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R37">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R37D">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.R38">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RAAA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RAFM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RAFU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RAHD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RAMU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RANG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RBMT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RBUP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RCAE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RCAT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RCAU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RCDU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RCDW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RCHM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RCIC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RCOD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RCOV">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RCVU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RDAY">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RDIS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.REDU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.REND">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RFJW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RHAD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RHAE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RHAM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RHB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RHW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RIDU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RITU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RKIN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RLAN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RLEE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RLIT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RLWM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RNUF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.ROAK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RODA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RODD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.ROMO">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RONC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.ROND">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.ROWA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RPAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RPHA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RPMD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RPOD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RSAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RSAU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RSCB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RTCU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.RXDA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipward_LRI.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURASSG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURPROGG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NUREXG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURASSR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURPROGR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NUREXR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURASS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURPROGF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NUREXF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AGS1A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AGS3P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AGS41">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AHG4F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AHG4N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AHG5F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AHG5N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AHGAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AHGRAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AJS14N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AJS15F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AJS15N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AJS1F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AJS1N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.DC1F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.DC1N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.DCAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.DCECHO">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.ER4F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.ER4N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GAN5AF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GAN5AN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GANAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GPM1FM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GPM1NM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GPMAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GPMRES">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GR1B">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GR1BN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GR3N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GR4F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GR4N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GRAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GRRAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IBS1A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IBS1AH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IBS3F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IBS3N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IH1F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IH1N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IH3F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IH3N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IHAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IHRAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IL3F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IL3N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IL4F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IL4N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.ILAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.ILRAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JDS14N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JDS1AH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JDS1F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JDS1N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JDS1RAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JK2F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JK2N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JK4F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JK4N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JKAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JKRAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JKTAVI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.KC13F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.KC1AH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.KC1F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.KC1N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.LLN3P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NJS2F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NJS2N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NJS5F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NJS5N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NJS5R">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NJSAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NJSRAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.PJS12F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.PJS12N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.PJS15F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.PJS15N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.PJS1AH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RKP1PF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RKP1PN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RKP1RAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RKP3PF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RKP3PN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.TW3A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.TW3C">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.TW42">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.TW4C">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.TW4D">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.TW4F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RFBLC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RFBLCN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RFBTH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IGL5N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IGL5F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IGLRN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IGLRF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.IGLCAF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AKMTCB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.BW3AF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.BW3AN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.BW4AF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.BW4AN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.BWFU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.BWNPN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CVDSN3A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CVJDC4A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CVJR3P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.DRL4B">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.DRL4N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.DVTNL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GJF2AF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GJF2AN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MKJM1P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURHYP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NV3BN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NV3GN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.PGM51">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.PGM5B">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.PS4AF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.PS4AN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RG2A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RMM3B">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RMNEW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RUAM3P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RUPGM5A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RUPGM5AN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.ST1A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.ST1N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.STROKE7F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.STROKE7N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.TIAOS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GJFTILT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CARDCV">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CARDCV1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CARDCV2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CVIL5A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CVPJS5A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.FHIS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.FHIS1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.FPDA5A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.FPDTC5P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GJFTAVI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.HDAN5P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.HDAN5PF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.HDAS2AF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.HDAS2AN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.HDDA2AF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.HDDA2AN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.HDRP4A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.HDRP4AF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.HDRP4R">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.HDRP4RN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.JD1A1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.LBAHG3P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.LBAHGR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.LBGR2A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MJM14F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MJM14N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MJM1AH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MKIH4P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURCPA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURCRM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURCRN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURCVC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURICDR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RACPNP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RUNJS5A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RUNJS5F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.SG3N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.WMJDS4A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.WMJDS4F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.WMJDSGF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.WMJDSGP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AKD3A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AKD3P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AKD41P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AKDAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CWA1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CWA2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CWA3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CWA4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CWA5">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CWA6">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.CWA7">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.FAB1P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.FABAD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.FABAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.FB2A">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MAGT11">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MAGTAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MDK2P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MDK31P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MDKAD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MDKAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURPAED">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.PCARD5P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RL5AP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RLAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RLGU5">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURASHFF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NUREXHFF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURPHFF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GJP4P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RG32P">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.AWSAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GJP4F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.GJPPO">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.LH5F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.LH5N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MG52">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MG5F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.MSH32">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.NURCSPA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RG32PPO">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RKF42">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RKF4F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RKFAH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RKFJSF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RKFJSN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.RKFOP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.TJS2F">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.TJS2N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opclinic.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons">
+    <value valueType="text">LLN</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.DC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.KC1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.GJF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.AHG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.IH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.WIL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.GPM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MJM1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.GAN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.RKP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.GR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.ER">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.NJS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.AJS1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JDS1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.PJS1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.LLN">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.IBS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.AGS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.BW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.RKF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.LH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MSH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.AL1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.TJS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.BJR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.CMC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.CPC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.DL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.DMJ">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.GMU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.GMW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.HT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.IGL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.IS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JBF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JDC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JEP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JFP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JPB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JPF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JWW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.KSH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.LM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.LRW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MDF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MFK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MJD1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.ML3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MOA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.NASK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.NL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.NMM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.NS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.NSS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.NV">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.PGM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.PPRS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.PW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.RFB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.RG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.RJR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.RJS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.RKMW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.RM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SA4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SGP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SJ">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SKM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SLD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SMS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SNE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SPC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.ST3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.TGR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.TH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.TM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.TRV">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.TW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.WA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.AJM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.AMD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.AR2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.ARH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.AV">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.CJG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.DLA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.DM1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.GAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.HJFW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JB2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JDH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JEM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JMR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.KH1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.KJW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MF2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MMC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MNS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.NMGS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.NRQ">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.PAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.PKV">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.RPK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SG3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SJK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SON">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.TA1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.VM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.YH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.AKD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.DKL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.FAB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MAGT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MDK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.RL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.SN1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.GJP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.JNL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.MG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.RG3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_ipcons.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.DC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.KC1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.GJF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.AHG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.IH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.WIL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.GPM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MJM1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.GAN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.RKP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.GR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.ER">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.NJS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.AJS1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JDS1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.PJS1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.LLN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.IBS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.AGS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.BW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.RKF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.LH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MSH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.AL1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.TJS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.BJR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.CMC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.CPC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.DL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.DMJ">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.GMU">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.GMW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.HT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.IGL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.IS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JBF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JDC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JEP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JFP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JPB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JPF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JWW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.KSH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.LM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.LRW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MDF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MFK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MJD1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.ML3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MOA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.NASK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.NL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.NMM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.NS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.NSS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.NV">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.PGM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.PPRS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.PW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.RFB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.RG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.RJR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.RJS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.RKMW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.RM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SA4">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SGP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SJ">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SKM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SLD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SMS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SNE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SPC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.ST3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.TGR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.TH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.TM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.TRV">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.TW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.WA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.AJM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.AMD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.AR2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.ARH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.AV">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.CJG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.DLA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.DM1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.GAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.HJFW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JB2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JDH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JEM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JMR">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.KH1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.KJW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MF2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MMC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MNS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.NMGS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.NRQ">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.PAC">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.PKV">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.RPK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SG3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SJK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SON">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.TA1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.VM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.YH">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.AKD">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.DKL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.FAB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MAGT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MDK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.RL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.SN1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.GJP">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.JNL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.MG">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.RG3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_opcons.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_studycode.Study_Reference1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_studycode.Study_Reference2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_studycode.Study_Reference3">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_studycode.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+</valueSet>

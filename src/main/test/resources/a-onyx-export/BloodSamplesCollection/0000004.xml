@@ -1,0 +1,8 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="BloodSamplesCollection" entityType="Participant" entityIdentifier="BPt00000050">
+  <variableValue variable="ParticipantTubeRegistration.endTime">
+    <value valueType="datetime">2010-07-28T15:24:03.000+0100</value>
+  </variableValue>
+  <variableValue variable="ParticipantTubeRegistration.startTime">
+    <value valueType="datetime">2010-07-28T15:23:11.000+0100</value>
+  </variableValue>
+</valueSet>

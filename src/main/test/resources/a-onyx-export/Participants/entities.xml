@@ -1,0 +1,21 @@
+<entities xmlns='http://brisskit.org/xml/onyx-entities/v1.0/oe' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <string>Participant</string>
+  <map>
+    <entry>
+      <string>BPt00000040</string>
+      <string>0000003.xml</string>
+    </entry>
+    <entry>
+      <string>BPt00000020</string>
+      <string>0000001.xml</string>
+    </entry>
+    <entry>
+      <string>BPt00000030</string>
+      <string>0000002.xml</string>
+    </entry>
+    <entry>
+      <string>BPt00000050</string>
+      <string>0000004.xml</string>
+    </entry>
+  </map>
+</entities>

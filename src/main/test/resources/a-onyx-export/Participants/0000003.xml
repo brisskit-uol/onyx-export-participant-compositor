@@ -1,0 +1,519 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="Participants" entityType="Participant" entityIdentifier="BPt00000040">
+  <variableValue variable="Admin.Interview.exportLog.type">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="Admin.Interview.status">
+    <value valueType="text">COMPLETED</value>
+  </variableValue>
+  <variableValue variable="Admin.ApplicationConfiguration.siteCode">
+    <value valueType="text">RCPE67QS-1</value>
+  </variableValue>
+  <variableValue variable="Admin.Action.toState">
+    <value class="sequence" valueType="text" size="29">
+      <value valueType="text" order="0"/>
+      <value valueType="text" order="1">InProgress</value>
+      <value valueType="text" order="2">Completed</value>
+      <value valueType="text" order="3">InProgress</value>
+      <value valueType="text" order="4">Completed</value>
+      <value valueType="text" order="5">InProgress</value>
+      <value valueType="text" order="6">Completed</value>
+      <value valueType="text" order="7">InProgress</value>
+      <value valueType="text" order="8">Interrupted</value>
+      <value valueType="text" order="9">InProgress</value>
+      <value valueType="text" order="10">Completed</value>
+      <value valueType="text" order="11">InProgress</value>
+      <value valueType="text" order="12">Completed</value>
+      <value valueType="text" order="13">InProgress</value>
+      <value valueType="text" order="14">Completed</value>
+      <value valueType="text" order="15">InProgress</value>
+      <value valueType="text" order="16">Completed</value>
+      <value valueType="text" order="17">InProgress</value>
+      <value valueType="text" order="18">Completed</value>
+      <value valueType="text" order="19">InProgress</value>
+      <value valueType="text" order="20">Completed</value>
+      <value valueType="text" order="21">InProgress</value>
+      <value valueType="text" order="22">Completed</value>
+      <value valueType="text" order="23">InProgress</value>
+      <value valueType="text" order="24">Completed</value>
+      <value valueType="text" order="25">InProgress</value>
+      <value valueType="text" order="26">Completed</value>
+      <value valueType="text" order="27">InProgress</value>
+      <value valueType="text" order="28">Completed</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Action.dateTime">
+    <value class="sequence" valueType="datetime" size="29">
+      <value valueType="datetime" order="0">2010-07-22T11:36:25.000+0100</value>
+      <value valueType="datetime" order="1">2010-07-22T11:38:59.000+0100</value>
+      <value valueType="datetime" order="2">2010-07-22T11:39:20.000+0100</value>
+      <value valueType="datetime" order="3">2010-07-22T11:39:25.000+0100</value>
+      <value valueType="datetime" order="4">2010-07-22T11:39:40.000+0100</value>
+      <value valueType="datetime" order="5">2010-07-22T11:39:48.000+0100</value>
+      <value valueType="datetime" order="6">2010-07-22T11:45:04.000+0100</value>
+      <value valueType="datetime" order="7">2010-07-29T10:31:53.000+0100</value>
+      <value valueType="datetime" order="8">2010-07-29T11:48:00.000+0100</value>
+      <value valueType="datetime" order="9">2010-07-29T11:48:05.000+0100</value>
+      <value valueType="datetime" order="10">2010-07-29T11:54:22.000+0100</value>
+      <value valueType="datetime" order="11">2011-01-06T09:26:27.000+0000</value>
+      <value valueType="datetime" order="12">2011-01-06T09:26:51.000+0000</value>
+      <value valueType="datetime" order="13">2011-01-06T09:26:59.000+0000</value>
+      <value valueType="datetime" order="14">2011-01-06T09:29:06.000+0000</value>
+      <value valueType="datetime" order="15">2011-01-06T09:29:11.000+0000</value>
+      <value valueType="datetime" order="16">2011-01-06T09:30:23.000+0000</value>
+      <value valueType="datetime" order="17">2011-01-06T09:31:03.000+0000</value>
+      <value valueType="datetime" order="18">2011-01-06T09:43:44.000+0000</value>
+      <value valueType="datetime" order="19">2011-01-06T09:44:14.000+0000</value>
+      <value valueType="datetime" order="20">2011-01-06T09:44:49.000+0000</value>
+      <value valueType="datetime" order="21">2011-01-06T09:45:00.000+0000</value>
+      <value valueType="datetime" order="22">2011-01-06T09:46:37.000+0000</value>
+      <value valueType="datetime" order="23">2011-01-06T09:46:49.000+0000</value>
+      <value valueType="datetime" order="24">2011-01-06T09:48:45.000+0000</value>
+      <value valueType="datetime" order="25">2011-01-06T09:48:49.000+0000</value>
+      <value valueType="datetime" order="26">2011-01-06T09:50:35.000+0000</value>
+      <value valueType="datetime" order="27">2011-01-06T09:50:39.000+0000</value>
+      <value valueType="datetime" order="28">2011-01-06T09:50:46.000+0000</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.captureEndDate">
+    <value valueType="datetime">2011-01-06T09:50:46.000+0000</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.birthDate">
+    <value valueType="datetime">1986-08-08T00:00:00.000+0100</value>
+  </variableValue>
+  <variableValue variable="Admin.ApplicationConfiguration.siteName">
+    <value valueType="text">Reedmace Close</value>
+  </variableValue>
+  <variableValue variable="Admin.Action.fromState">
+    <value class="sequence" valueType="text" size="29">
+      <value valueType="text" order="0"/>
+      <value valueType="text" order="1">Ready</value>
+      <value valueType="text" order="2">InProgress</value>
+      <value valueType="text" order="3">Ready</value>
+      <value valueType="text" order="4">InProgress</value>
+      <value valueType="text" order="5">Ready</value>
+      <value valueType="text" order="6">InProgress</value>
+      <value valueType="text" order="7">Ready</value>
+      <value valueType="text" order="8">InProgress</value>
+      <value valueType="text" order="9">Interrupted</value>
+      <value valueType="text" order="10">InProgress</value>
+      <value valueType="text" order="11">Ready</value>
+      <value valueType="text" order="12">InProgress</value>
+      <value valueType="text" order="13">Ready</value>
+      <value valueType="text" order="14">InProgress</value>
+      <value valueType="text" order="15">Ready</value>
+      <value valueType="text" order="16">InProgress</value>
+      <value valueType="text" order="17">Ready</value>
+      <value valueType="text" order="18">InProgress</value>
+      <value valueType="text" order="19">Ready</value>
+      <value valueType="text" order="20">InProgress</value>
+      <value valueType="text" order="21">Ready</value>
+      <value valueType="text" order="22">InProgress</value>
+      <value valueType="text" order="23">Ready</value>
+      <value valueType="text" order="24">InProgress</value>
+      <value valueType="text" order="25">Ready</value>
+      <value valueType="text" order="26">InProgress</value>
+      <value valueType="text" order="27">Ready</value>
+      <value valueType="text" order="28">InProgress</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.last">
+    <value class="sequence" valueType="boolean" size="13">
+      <value valueType="boolean" order="0">true</value>
+      <value valueType="boolean" order="1">true</value>
+      <value valueType="boolean" order="2">true</value>
+      <value valueType="boolean" order="3">true</value>
+      <value valueType="boolean" order="4">true</value>
+      <value valueType="boolean" order="5">true</value>
+      <value valueType="boolean" order="6">true</value>
+      <value valueType="boolean" order="7">true</value>
+      <value valueType="boolean" order="8">true</value>
+      <value valueType="boolean" order="9">true</value>
+      <value valueType="boolean" order="10">true</value>
+      <value valueType="boolean" order="11">true</value>
+      <value valueType="boolean" order="12">true</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Action.stage">
+    <value class="sequence" valueType="text" size="29">
+      <value valueType="text" order="0"/>
+      <value valueType="text" order="1">Consent</value>
+      <value valueType="text" order="2">Consent</value>
+      <value valueType="text" order="3">ManualConsentQuestionnaire</value>
+      <value valueType="text" order="4">ManualConsentQuestionnaire</value>
+      <value valueType="text" order="5">RecruitmentContextQuestionnaire</value>
+      <value valueType="text" order="6">RecruitmentContextQuestionnaire</value>
+      <value valueType="text" order="7">RiskFactorQuestionnaire</value>
+      <value valueType="text" order="8">RiskFactorQuestionnaire</value>
+      <value valueType="text" order="9">RiskFactorQuestionnaire</value>
+      <value valueType="text" order="10">RiskFactorQuestionnaire</value>
+      <value valueType="text" order="11">VerbalConsentQuestionnaire</value>
+      <value valueType="text" order="12">VerbalConsentQuestionnaire</value>
+      <value valueType="text" order="13">MedicalHistoryInterviewQuestionnaire</value>
+      <value valueType="text" order="14">MedicalHistoryInterviewQuestionnaire</value>
+      <value valueType="text" order="15">SamplePreliminaryQuestionnaire</value>
+      <value valueType="text" order="16">SamplePreliminaryQuestionnaire</value>
+      <value valueType="text" order="17">BloodSamplesCollection</value>
+      <value valueType="text" order="18">BloodSamplesCollection</value>
+      <value valueType="text" order="19">UrineSamplesCollection</value>
+      <value valueType="text" order="20">UrineSamplesCollection</value>
+      <value valueType="text" order="21">EndContactQuestionnaire</value>
+      <value valueType="text" order="22">EndContactQuestionnaire</value>
+      <value valueType="text" order="23">MedicalHistoryQuestionnaire</value>
+      <value valueType="text" order="24">MedicalHistoryQuestionnaire</value>
+      <value valueType="text" order="25">DataSubmissionQuestionnaire</value>
+      <value valueType="text" order="26">DataSubmissionQuestionnaire</value>
+      <value valueType="text" order="27">ConclusionQuestionnaire</value>
+      <value valueType="text" order="28">ConclusionQuestionnaire</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.onyxVersion">
+    <value valueType="text">1.7.0-b8944</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.pat_postcode">
+    <value valueType="text">LE34 6SG</value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.lastState">
+    <value class="sequence" valueType="text" size="13">
+      <value valueType="text" order="0">Completed</value>
+      <value valueType="text" order="1">Completed</value>
+      <value valueType="text" order="2">Completed</value>
+      <value valueType="text" order="3">Completed</value>
+      <value valueType="text" order="4">Completed</value>
+      <value valueType="text" order="5">Completed</value>
+      <value valueType="text" order="6">Completed</value>
+      <value valueType="text" order="7">Completed</value>
+      <value valueType="text" order="8">Completed</value>
+      <value valueType="text" order="9">Completed</value>
+      <value valueType="text" order="10">Completed</value>
+      <value valueType="text" order="11">Completed</value>
+      <value valueType="text" order="12">Completed</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.barcode">
+    <value valueType="text">BPt00000040</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.pat_address4">
+    <value valueType="text">New County</value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.exportLog.destination">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.interruptionCount">
+    <value class="sequence" valueType="integer" size="13">
+      <value valueType="integer" order="0">0</value>
+      <value valueType="integer" order="1">0</value>
+      <value valueType="integer" order="2">0</value>
+      <value valueType="integer" order="3">1</value>
+      <value valueType="integer" order="4">0</value>
+      <value valueType="integer" order="5">0</value>
+      <value valueType="integer" order="6">0</value>
+      <value valueType="integer" order="7">0</value>
+      <value valueType="integer" order="8">0</value>
+      <value valueType="integer" order="9">0</value>
+      <value valueType="integer" order="10">0</value>
+      <value valueType="integer" order="11">0</value>
+      <value valueType="integer" order="12">0</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.stage">
+    <value class="sequence" valueType="text" size="13">
+      <value valueType="text" order="0">Consent</value>
+      <value valueType="text" order="1">ManualConsentQuestionnaire</value>
+      <value valueType="text" order="2">RecruitmentContextQuestionnaire</value>
+      <value valueType="text" order="3">RiskFactorQuestionnaire</value>
+      <value valueType="text" order="4">VerbalConsentQuestionnaire</value>
+      <value valueType="text" order="5">MedicalHistoryInterviewQuestionnaire</value>
+      <value valueType="text" order="6">SamplePreliminaryQuestionnaire</value>
+      <value valueType="text" order="7">BloodSamplesCollection</value>
+      <value valueType="text" order="8">UrineSamplesCollection</value>
+      <value valueType="text" order="9">EndContactQuestionnaire</value>
+      <value valueType="text" order="10">MedicalHistoryQuestionnaire</value>
+      <value valueType="text" order="11">DataSubmissionQuestionnaire</value>
+      <value valueType="text" order="12">ConclusionQuestionnaire</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.pat_address1">
+    <value valueType="text">27 Newbridge Street</value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.exportLog.exportDate">
+    <value class="sequence" valueType="datetime" size="0"/>
+  </variableValue>
+  <variableValue variable="Admin.Participant.pat_nhsnumber">
+    <value valueType="text">NHS 4575GTDT3</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.pat_title">
+    <value valueType="text">Ms</value>
+  </variableValue>
+  <variableValue variable="Admin.Action.user">
+    <value class="sequence" valueType="text" size="29">
+      <value valueType="text" order="0">JeffLusted</value>
+      <value valueType="text" order="1">JeffLusted</value>
+      <value valueType="text" order="2">JeffLusted</value>
+      <value valueType="text" order="3">JeffLusted</value>
+      <value valueType="text" order="4">JeffLusted</value>
+      <value valueType="text" order="5">JeffLusted</value>
+      <value valueType="text" order="6">JeffLusted</value>
+      <value valueType="text" order="7">JeffLusted</value>
+      <value valueType="text" order="8">JeffLusted</value>
+      <value valueType="text" order="9">JeffLusted</value>
+      <value valueType="text" order="10">JeffLusted</value>
+      <value valueType="text" order="11">JeffLusted</value>
+      <value valueType="text" order="12">JeffLusted</value>
+      <value valueType="text" order="13">JeffLusted</value>
+      <value valueType="text" order="14">JeffLusted</value>
+      <value valueType="text" order="15">JeffLusted</value>
+      <value valueType="text" order="16">JeffLusted</value>
+      <value valueType="text" order="17">JeffLusted</value>
+      <value valueType="text" order="18">JeffLusted</value>
+      <value valueType="text" order="19">JeffLusted</value>
+      <value valueType="text" order="20">JeffLusted</value>
+      <value valueType="text" order="21">JeffLusted</value>
+      <value valueType="text" order="22">JeffLusted</value>
+      <value valueType="text" order="23">JeffLusted</value>
+      <value valueType="text" order="24">JeffLusted</value>
+      <value valueType="text" order="25">JeffLusted</value>
+      <value valueType="text" order="26">JeffLusted</value>
+      <value valueType="text" order="27">JeffLusted</value>
+      <value valueType="text" order="28">JeffLusted</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.pat_ethnicity">
+    <value valueType="text">Mauri</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.firstName">
+    <value valueType="text">Esther</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.age">
+    <value valueType="integer">24</value>
+  </variableValue>
+  <variableValue variable="Admin.Action.eventReason">
+    <value class="sequence" valueType="text" size="29">
+      <value valueType="text" order="0"/>
+      <value valueType="text" order="1"/>
+      <value valueType="text" order="2"/>
+      <value valueType="text" order="3"/>
+      <value valueType="text" order="4"/>
+      <value valueType="text" order="5"/>
+      <value valueType="text" order="6"/>
+      <value valueType="text" order="7"/>
+      <value valueType="text" order="8"/>
+      <value valueType="text" order="9"/>
+      <value valueType="text" order="10"/>
+      <value valueType="text" order="11"/>
+      <value valueType="text" order="12"/>
+      <value valueType="text" order="13"/>
+      <value valueType="text" order="14"/>
+      <value valueType="text" order="15"/>
+      <value valueType="text" order="16"/>
+      <value valueType="text" order="17"/>
+      <value valueType="text" order="18"/>
+      <value valueType="text" order="19"/>
+      <value valueType="text" order="20"/>
+      <value valueType="text" order="21"/>
+      <value valueType="text" order="22"/>
+      <value valueType="text" order="23"/>
+      <value valueType="text" order="24"/>
+      <value valueType="text" order="25"/>
+      <value valueType="text" order="26"/>
+      <value valueType="text" order="27"/>
+      <value valueType="text" order="28"/>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.pat_address3">
+    <value valueType="text">New Town</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.birthYear">
+    <value valueType="integer">1986</value>
+  </variableValue>
+  <variableValue variable="Admin.ApplicationConfiguration.studyName">
+    <value valueType="text">Jeff&apos;s Test Study 1</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.captureStartDate">
+    <value valueType="datetime">2010-07-22T11:36:25.000+0100</value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.duration">
+    <value valueType="integer">2474</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.gender">
+    <value valueType="text">FEMALE</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.pat_telephone">
+    <value valueType="text">01234-456724</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.recruitmentType">
+    <value valueType="text">VOLUNTEER</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.appointmentDate">
+    <value valueType="datetime">2010-07-22T11:35:42.000+0100</value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.endDate">
+    <value valueType="datetime">2011-01-06T09:50:46.000+0000</value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.duration">
+    <value class="sequence" valueType="integer" size="13">
+      <value valueType="integer" order="0">21</value>
+      <value valueType="integer" order="1">15</value>
+      <value valueType="integer" order="2">316</value>
+      <value valueType="integer" order="3">4944</value>
+      <value valueType="integer" order="4">24</value>
+      <value valueType="integer" order="5">127</value>
+      <value valueType="integer" order="6">72</value>
+      <value valueType="integer" order="7">761</value>
+      <value valueType="integer" order="8">35</value>
+      <value valueType="integer" order="9">97</value>
+      <value valueType="integer" order="10">116</value>
+      <value valueType="integer" order="11">106</value>
+      <value valueType="integer" order="12">7</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.startTime">
+    <value class="sequence" valueType="datetime" size="13">
+      <value valueType="datetime" order="0">2010-07-22T11:38:59.000+0100</value>
+      <value valueType="datetime" order="1">2010-07-22T11:39:25.000+0100</value>
+      <value valueType="datetime" order="2">2010-07-22T11:39:48.000+0100</value>
+      <value valueType="datetime" order="3">2010-07-29T10:31:53.000+0100</value>
+      <value valueType="datetime" order="4">2011-01-06T09:26:27.000+0000</value>
+      <value valueType="datetime" order="5">2011-01-06T09:26:59.000+0000</value>
+      <value valueType="datetime" order="6">2011-01-06T09:29:11.000+0000</value>
+      <value valueType="datetime" order="7">2011-01-06T09:31:03.000+0000</value>
+      <value valueType="datetime" order="8">2011-01-06T09:44:14.000+0000</value>
+      <value valueType="datetime" order="9">2011-01-06T09:45:00.000+0000</value>
+      <value valueType="datetime" order="10">2011-01-06T09:46:49.000+0000</value>
+      <value valueType="datetime" order="11">2011-01-06T09:48:49.000+0000</value>
+      <value valueType="datetime" order="12">2011-01-06T09:50:39.000+0000</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.fullName">
+    <value valueType="text">Esther Potter</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.pat_address2">
+    <value valueType="text">New Village</value>
+  </variableValue>
+  <variableValue variable="Admin.Action.actionType">
+    <value class="sequence" valueType="text" size="29">
+      <value valueType="text" order="0">START</value>
+      <value valueType="text" order="1">EXECUTE</value>
+      <value valueType="text" order="2">COMPLETE</value>
+      <value valueType="text" order="3">EXECUTE</value>
+      <value valueType="text" order="4">COMPLETE</value>
+      <value valueType="text" order="5">EXECUTE</value>
+      <value valueType="text" order="6">COMPLETE</value>
+      <value valueType="text" order="7">EXECUTE</value>
+      <value valueType="text" order="8">INTERRUPT</value>
+      <value valueType="text" order="9">EXECUTE</value>
+      <value valueType="text" order="10">COMPLETE</value>
+      <value valueType="text" order="11">EXECUTE</value>
+      <value valueType="text" order="12">COMPLETE</value>
+      <value valueType="text" order="13">EXECUTE</value>
+      <value valueType="text" order="14">COMPLETE</value>
+      <value valueType="text" order="15">EXECUTE</value>
+      <value valueType="text" order="16">COMPLETE</value>
+      <value valueType="text" order="17">EXECUTE</value>
+      <value valueType="text" order="18">COMPLETE</value>
+      <value valueType="text" order="19">EXECUTE</value>
+      <value valueType="text" order="20">COMPLETE</value>
+      <value valueType="text" order="21">EXECUTE</value>
+      <value valueType="text" order="22">COMPLETE</value>
+      <value valueType="text" order="23">EXECUTE</value>
+      <value valueType="text" order="24">COMPLETE</value>
+      <value valueType="text" order="25">EXECUTE</value>
+      <value valueType="text" order="26">COMPLETE</value>
+      <value valueType="text" order="27">EXECUTE</value>
+      <value valueType="text" order="28">COMPLETE</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.enrollmentId">
+    <value valueType="text">S0000040</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.lastName">
+    <value valueType="text">Potter</value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.exportLog.captureEndDate">
+    <value class="sequence" valueType="datetime" size="0"/>
+  </variableValue>
+  <variableValue variable="Admin.Participant.pat_workphone">
+    <value valueType="text">09876-54324</value>
+  </variableValue>
+  <variableValue variable="Admin.Action.comment">
+    <value class="sequence" valueType="text" size="29">
+      <value valueType="text" order="0"/>
+      <value valueType="text" order="1">s</value>
+      <value valueType="text" order="2">e</value>
+      <value valueType="text" order="3"/>
+      <value valueType="text" order="4"/>
+      <value valueType="text" order="5"/>
+      <value valueType="text" order="6"/>
+      <value valueType="text" order="7"/>
+      <value valueType="text" order="8">e</value>
+      <value valueType="text" order="9"/>
+      <value valueType="text" order="10"/>
+      <value valueType="text" order="11"/>
+      <value valueType="text" order="12"/>
+      <value valueType="text" order="13"/>
+      <value valueType="text" order="14"/>
+      <value valueType="text" order="15"/>
+      <value valueType="text" order="16"/>
+      <value valueType="text" order="17"/>
+      <value valueType="text" order="18"/>
+      <value valueType="text" order="19"/>
+      <value valueType="text" order="20"/>
+      <value valueType="text" order="21"/>
+      <value valueType="text" order="22"/>
+      <value valueType="text" order="23"/>
+      <value valueType="text" order="24"/>
+      <value valueType="text" order="25"/>
+      <value valueType="text" order="26"/>
+      <value valueType="text" order="27"/>
+      <value valueType="text" order="28"/>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.startDate">
+    <value valueType="datetime">2010-07-22T11:36:25.000+0100</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.siteNo">
+    <value valueType="text">RCPE67QS-1</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.pat_gp">
+    <value valueType="text">gpc 123</value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.user">
+    <value class="sequence" valueType="text" size="13">
+      <value valueType="text" order="0">JeffLusted</value>
+      <value valueType="text" order="1">JeffLusted</value>
+      <value valueType="text" order="2">JeffLusted</value>
+      <value valueType="text" order="3">JeffLusted</value>
+      <value valueType="text" order="4">JeffLusted</value>
+      <value valueType="text" order="5">JeffLusted</value>
+      <value valueType="text" order="6">JeffLusted</value>
+      <value valueType="text" order="7">JeffLusted</value>
+      <value valueType="text" order="8">JeffLusted</value>
+      <value valueType="text" order="9">JeffLusted</value>
+      <value valueType="text" order="10">JeffLusted</value>
+      <value valueType="text" order="11">JeffLusted</value>
+      <value valueType="text" order="12">JeffLusted</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.lastTime">
+    <value class="sequence" valueType="datetime" size="13">
+      <value valueType="datetime" order="0">2010-07-22T11:39:20.000+0100</value>
+      <value valueType="datetime" order="1">2010-07-22T11:39:40.000+0100</value>
+      <value valueType="datetime" order="2">2010-07-22T11:45:04.000+0100</value>
+      <value valueType="datetime" order="3">2010-07-29T11:54:22.000+0100</value>
+      <value valueType="datetime" order="4">2011-01-06T09:26:51.000+0000</value>
+      <value valueType="datetime" order="5">2011-01-06T09:29:06.000+0000</value>
+      <value valueType="datetime" order="6">2011-01-06T09:30:23.000+0000</value>
+      <value valueType="datetime" order="7">2011-01-06T09:43:44.000+0000</value>
+      <value valueType="datetime" order="8">2011-01-06T09:44:49.000+0000</value>
+      <value valueType="datetime" order="9">2011-01-06T09:46:37.000+0000</value>
+      <value valueType="datetime" order="10">2011-01-06T09:48:45.000+0000</value>
+      <value valueType="datetime" order="11">2011-01-06T09:50:35.000+0000</value>
+      <value valueType="datetime" order="12">2011-01-06T09:50:46.000+0000</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.exportLog.captureStartDate">
+    <value class="sequence" valueType="datetime" size="0"/>
+  </variableValue>
+  <variableValue variable="Admin.Participant.PostalCodePrefix">
+    <value valueType="text">23.0</value>
+  </variableValue>
+</valueSet>

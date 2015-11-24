@@ -1,0 +1,600 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="DataSubmissionQuestionnaire" entityType="Participant" entityIdentifier="BPt00000020">
+  <variableValue variable="QuestionnaireRun.version">
+    <value valueType="text">1.0</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.locale">
+    <value valueType="locale">en</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeStart">
+    <value valueType="datetime">2010-07-21T15:53:44.000+0100</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeEnd">
+    <value valueType="datetime">2011-01-05T16:48:38.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.user">
+    <value valueType="text">JeffLusted</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.section">
+    <value class="sequence" valueType="text" size="4">
+      <value valueType="text" order="0">MAIN</value>
+      <value valueType="text" order="1">MAIN</value>
+      <value valueType="text" order="2">MAIN</value>
+      <value valueType="text" order="3">MAIN</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.page">
+    <value class="sequence" valueType="text" size="4">
+      <value valueType="text" order="0">1</value>
+      <value valueType="text" order="1">2</value>
+      <value valueType="text" order="2">4</value>
+      <value valueType="text" order="3">5</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.duration">
+    <value class="sequence" valueType="integer" size="4">
+      <value valueType="integer" order="0">2760</value>
+      <value valueType="integer" order="1">68</value>
+      <value valueType="integer" order="2">137</value>
+      <value valueType="integer" order="3">11</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.questionCount">
+    <value class="sequence" valueType="integer" size="4">
+      <value valueType="integer" order="0">3</value>
+      <value valueType="integer" order="1">2</value>
+      <value valueType="integer" order="2">1</value>
+      <value valueType="integer" order="3">5</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.missingCount">
+    <value class="sequence" valueType="integer" size="4">
+      <value valueType="integer" order="0">1</value>
+      <value valueType="integer" order="1">0</value>
+      <value valueType="integer" order="2">0</value>
+      <value valueType="integer" order="3">0</value>
+    </value>
+  </variableValue>
+  <variableValue variable="epi_symptoms">
+    <value class="sequence" valueType="text" size="2">
+      <value valueType="text" order="0">Chest_Pain</value>
+      <value valueType="text" order="1">Other</value>
+    </value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Shortness_of_Breath">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Collapse">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Syncope">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Chest_Pain">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Palpitations">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Cardiac_Arrest">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Dizziness">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Leg_Pain_on_Walking">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Side_Weakness">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Slurred_Speech">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Other">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_symptoms.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symptomother_cat">
+    <value valueType="text">OPEN_TEXT</value>
+  </variableValue>
+  <variableValue variable="epi_symptomother_cat.OPEN_TEXT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_symptomother_cat.OPEN_TEXT.OPEN_TEXT_SECDIAGOTHER">
+    <value valueType="text">Arm pain on running</value>
+  </variableValue>
+  <variableValue variable="epi_symponset_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symponset_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symponset_table">
+    <value valueType="text">Unknown</value>
+  </variableValue>
+  <variableValue variable="epi_symponset_table.DATE_YM">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symponset_table.Unknown">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_symponset_time_cat.TIME_24">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_symponset_time_cat.Unknown">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag">
+    <value valueType="text">Other</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Troponin_pos_ACS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Troponin_neg_ACS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Acute_Arterial_Occlusion">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Acute_Stent_Thrombosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Aortic_Aneurysm">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Aortic_Dissection">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Aortic_Infective_Endocarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Aortic_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Aortic_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Arrythmogenic_Right_Ventricular_Cardiomyopathy">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Atrial_Ectopics">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.AF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Atrial_Flutter">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Haemorrhagic_Stroke">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Thrombotic_Stroke">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Cardiac_Arrest">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Cardiac_Tamponade">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Cardiogenic_Shock">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.DVT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Type_I_Diabetes">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Type_II_Diabetes">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Dilated_Cardiomyopathy">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.1st_DHB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.2nd_DHB_MT1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.2nd_DHB_MT2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.3rd_DHB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Acute_Heart_Failure">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Chronic_Heart_Failure">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Essential_Hypertension">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Secondary_Hypertension">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Hypertrophic_Cardiomyopathy">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Intermittent_Claudication">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Ischaemic_Cardiomyopathy">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Late_Stent_Thrombosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Mitral_Infective_Endocarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Mitral_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Mitral_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Bacterial_Myocarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Viral_Myocarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Non_cardiac_Chest_Pain">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Pericardial_Effusion">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Bacterial_Pericarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Post_infarction_Pericarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Viral_Pericarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Other_Pericarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.PE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Pulmonary_Infective_Endocarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Pulmonary_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Pulmonary_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Restrictive_Cardiomyopathy">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Ruptured_Aortic_Aneurysm">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.STEMI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Stable_Angina">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.SVT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.TIA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Tricuspid_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Tricuspid_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Ventricular_Ectopics">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.VF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.VT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.WPW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_pridiag.Other">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_pridiagother_cat">
+    <value valueType="text">OPEN_TEXT</value>
+  </variableValue>
+  <variableValue variable="epi_pridiagother_cat.OPEN_TEXT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_pridiagother_cat.OPEN_TEXT.OPEN_TEXT_SECDIAGOTHER">
+    <value valueType="text">Tertiary Hypertension</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Troponin_pos_ACS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Troponin_neg_ACS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Acute_Arterial_Occlusion">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Acute_Stent_Thrombosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Aortic_Aneurysm">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Aortic_Dissection">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Aortic_Infective_Endocarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Aortic_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Aortic_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Arrythmogenic_Right_Ventricular_Cardiomyopathy">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Atrial_Ectopics">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.AF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Atrial_Flutter">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Haemorrhagic_Stroke">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Thrombotic_Stroke">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Cardiac_Arrest">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Cardiac_Tamponade">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Cardiogenic_Shock">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.DVT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Type_I_Diabetes">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Type_II_Diabetes">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Dilated_Cardiomyopathy">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.1st_DHB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.2nd_DHB_MT1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.2nd_DHB_MT2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.3rd_DHB">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Acute_Heart_Failure">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Chronic_Heart_Failure">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Essential_Hypertension">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Secondary_Hypertension">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Hypertrophic_Cardiomyopathy">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Intermittent_Claudication">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Ischaemic_Cardiomyopathy">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Late_Stent_Thrombosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Mitral_Infective_Endocarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Mitral_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Mitral_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Bacterial_Myocarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Viral_Myocarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Non_cardiac_Chest_Pain">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Pericardial_Effusion">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Bacterial_Pericarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Post_infarction_Pericarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Viral_Pericarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Other_Pericarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.PE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Pulmonary_Infective_Endocarditis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Pulmonary_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Pulmonary_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Restrictive_Cardiomyopathy">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Ruptured_Aortic_Aneurysm">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.STEMI">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Stable_Angina">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.SVT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.TIA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Tricuspid_Regurgitation">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Tricuspid_Stenosis">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Ventricular_Ectopics">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.VF">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.VT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.WPW">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.Other">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiag.NONE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_secdiagother_cat.OPEN_TEXT">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="Date_table">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_intcabg_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_intvalve_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_inttavi_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_intppci_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_intopci_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_intpace_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_inticd_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_intlvad_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_intthromb_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_intablat_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_testangio_cat.OPEN_DATE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_obshr_cat">
+    <value valueType="text">Not_Recorded</value>
+  </variableValue>
+  <variableValue variable="epi_obshr_cat.OPEN_N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_obshr_cat.Not_Recorded">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_obssbp_cat">
+    <value valueType="text">Not_Recorded</value>
+  </variableValue>
+  <variableValue variable="epi_obssbp_cat.OPEN_N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_obssbp_cat.Not_Recorded">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_obsdbp_cat">
+    <value valueType="text">Not_Recorded</value>
+  </variableValue>
+  <variableValue variable="epi_obsdbp_cat.OPEN_N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_obsdbp_cat.Not_Recorded">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_obsht_cat">
+    <value valueType="text">Not_Recorded</value>
+  </variableValue>
+  <variableValue variable="epi_obsht_cat.OPEN_N2">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_obsht_cat.Not_Recorded">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="epi_obswt_cat">
+    <value valueType="text">Not_Recorded</value>
+  </variableValue>
+  <variableValue variable="epi_obswt_cat.OPEN_N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="epi_obswt_cat.Not_Recorded">
+    <value valueType="boolean">true</value>
+  </variableValue>
+</valueSet>

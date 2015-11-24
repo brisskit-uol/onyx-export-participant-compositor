@@ -1,0 +1,152 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="SamplePreliminaryQuestionnaire" entityType="Participant" entityIdentifier="BPt00000040">
+  <variableValue variable="QuestionnaireRun.version">
+    <value valueType="text">1.0</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.locale">
+    <value valueType="locale">en</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeStart">
+    <value valueType="datetime">2011-01-06T09:29:11.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeEnd">
+    <value valueType="datetime">2011-01-06T09:30:23.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.user">
+    <value valueType="text">JeffLusted</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.section">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.page">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.duration">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.questionCount">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.missingCount">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="sample_preg">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="sample_preg.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="sample_preg.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_preg.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_preg.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_haem">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="sample_haem.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="sample_haem.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_haem.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_haem.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_tra24h">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="sample_tra24h.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="sample_tra24h.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_tra24h.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_tra24h.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_tra3m">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="sample_tra3m.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="sample_tra3m.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_tra3m.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_tra3m.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_onc">
+    <value valueType="text">N</value>
+  </variableValue>
+  <variableValue variable="sample_onc.N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="sample_onc.Y">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_onc.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="sample_onc.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="food_lasteat_cat">
+    <value valueType="text">TIME_24</value>
+  </variableValue>
+  <variableValue variable="food_lasteat_cat.TIME_24">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="food_lasteat_day">
+    <value valueType="text">TODAY</value>
+  </variableValue>
+  <variableValue variable="food_lasteat_hour">
+    <value valueType="integer">7</value>
+  </variableValue>
+  <variableValue variable="food_lasteat_min">
+    <value valueType="integer">30</value>
+  </variableValue>
+  <variableValue variable="food_lasteat_cat.MORE_24_HOURS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="food_lastdrink_cat">
+    <value valueType="text">TIME_24</value>
+  </variableValue>
+  <variableValue variable="food_lastdrink_cat.TIME_24">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="food_lastdrink_day">
+    <value valueType="text">TODAY</value>
+  </variableValue>
+  <variableValue variable="food_lastdrink_hour">
+    <value valueType="integer">7</value>
+  </variableValue>
+  <variableValue variable="food_lastdrink_min">
+    <value valueType="integer">30</value>
+  </variableValue>
+  <variableValue variable="food_lastdrink_cat.MORE_24_HOURS">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="food_lastcaff_cat">
+    <value valueType="text">MORE_24_HOURS</value>
+  </variableValue>
+  <variableValue variable="food_lastcaff_cat.TIME_24">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="food_lastcaff_cat.MORE_24_HOURS">
+    <value valueType="boolean">true</value>
+  </variableValue>
+</valueSet>
