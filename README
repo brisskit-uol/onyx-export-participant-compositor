@@ -1,4 +1,5 @@
 This program is intended for test environments only.
 
 It composes imaginary participant data given an existing an onyx export file as input. 
+That is, it scrambles the data from the input to compose the output.
 The end product is another onyx export file.

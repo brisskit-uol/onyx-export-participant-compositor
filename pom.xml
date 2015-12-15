@@ -95,6 +95,17 @@
             </plugin>
 
         </plugins>
+        
+        <resources>
+      		<resource>
+        		<directory>${basedir}</directory>
+        		<targetPath>./</targetPath>
+        		<includes>
+          			<include>licence.doc</include>
+        		</includes>
+      		</resource>
+    	</resources>
+        
     </build>
 
     <reporting>
